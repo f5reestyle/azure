@@ -1,0 +1,20 @@
+{
+	"name": "ODBC_sqlite3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "windows vm data factory \n",
+		"annotations": [],
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1-windows",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
