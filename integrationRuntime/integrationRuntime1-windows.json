@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntime1-windows",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "windows 2016 datacenter"
+	}
+}
